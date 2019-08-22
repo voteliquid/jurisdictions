@@ -8,12 +8,14 @@ Each file must have the following schema:
 
 ```json
 {
-  "label": "Legislature name",
-  "short_label": "Legislature abbreviation",
+  "label": "San Francisco City Council",
+  "short_label": "San Francisco",
+  "locality": "San Francisco",
+  "administrative_area_level_2": "San Francisco County",
+  "administrative_area_level_1": "California",
   "session": 20192020,
   "districts": [
     {
-      "type": "Feature",
       "geometry": {...},
       "properties": {
         "label": "District name",
